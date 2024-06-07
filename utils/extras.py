@@ -1,7 +1,7 @@
 from flet import padding
 app_name = "Plyscanner"
-base_height = 500
-base_width = 800
+base_height = 700
+base_width = 1000
 btn_width = 350
 btn_height = 50
 br = 30
@@ -15,3 +15,8 @@ content_padding = padding.only(left=20,top=10,right=10,bottom=10)
 input_error_bg = "#f8c1bc"
 input_error_outline = "#cb1a2a"
 img_src =''
+title_style = {
+    'fontSize':35,
+    'fontWeight':'bold',
+    'color':base_color
+}
